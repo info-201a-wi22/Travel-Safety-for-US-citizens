@@ -102,7 +102,7 @@ The main expected implication is for normal people deciding where to travel to. 
 
 **6.0 Limitations**
 
-	The main limitation is that we are not able to determine the plan and what are they doing during the trip. For some reason the people might implement something with high risk danger during their lifetime. Not being able to determine their motivation would affect the accuracy of our research question because people were traveling for different reasons. The reasons that include high risk dangers would increase their chance of dying and make our data biased against certain cities. Another limitation is that we are only measuring death. This means other causes of hardship like injuries or theft are not included in this data and will decrease our accuracy in determining which places are safer.
+The main limitation is that we are not able to determine the plan and what are they doing during the trip. For some reason the people might implement something with high risk danger during their lifetime. Not being able to determine their motivation would affect the accuracy of our research question because people were traveling for different reasons. The reasons that include high risk dangers would increase their chance of dying and make our data biased against certain cities. Another limitation is that we are only measuring death. This means other causes of hardship like injuries or theft are not included in this data and will decrease our accuracy in determining which places are safer.
 
 **References**
 
