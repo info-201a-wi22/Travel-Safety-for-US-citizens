@@ -17,4 +17,4 @@ summaryinfo$num_of_locations <- length(unique(dataset$City))
 death_count_by_date <- table(dataset$Date)
 summaryinfo$daily_death_avg <- mean(death_count_by_date)
 
-
+Print(summaryinfo)
