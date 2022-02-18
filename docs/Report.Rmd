@@ -1,0 +1,14 @@
+---
+title: "Report"
+author: "Jacob Kim"
+date: "2/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("summary-information-script.R")
+library("knitr")
+```
+
+This is a summary paragraph that details important information about the data. The most recent update to this data was in `r summaryinfo$most_recent_death_date`. This data includes `r summaryinfo$num_of_locations` different cities. There are `r summaryinfo$num_of_causes` causes of death in the data with the most common cause of death being `r summaryinfo$most_common_death_cause`. The data has an average of `r summaryinfo$daily_death_avg` deaths added to the dataset each day.
