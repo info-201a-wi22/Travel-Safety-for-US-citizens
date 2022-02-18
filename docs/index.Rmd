@@ -13,3 +13,8 @@ library("knitr")
 ## Summary Information
 This is a summary paragraph that details important information about the data. The most recent update to this data was in `r summaryinfo$most_recent_death_date`. This data includes `r summaryinfo$num_of_locations` different cities. There are `r summaryinfo$num_of_causes` causes of death in the data with the most common cause of death being `r summaryinfo$most_common_death_cause`. The data has an average of `r summaryinfo$daily_death_avg` deaths added to the dataset each day.
 
+
+## Aggregated Table script
+**death_per_city**: By ranking the number of deaths from lowest to highest, we can observe the ranking of safety for each city. The data set for “death_per_city” will reveal the name of the city and next to it, the number of deaths that occurred in that city.
+
+**types_of_death**: This data set reveals the Cause of Death on the first column and the occurrence of each of the causes on the second column. We would need this data to be aware of which aspect we need to be cautious of, when we travel around.
