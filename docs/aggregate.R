@@ -1,3 +1,5 @@
+install.packages("dplyr")
+
 library(dplyr)
 
 grouped <- group_by(export, City)
@@ -15,3 +17,6 @@ types_of_death <- export %>%
   summarise(
     num_per_cause = NROW(`Cause of Death`)
   )
+
+death_per_city
+types_of_death
