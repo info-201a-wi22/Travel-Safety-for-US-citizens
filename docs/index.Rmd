@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 source("../source/summary-information-script.R")
 source("../source/aggregate.R")
 source("../source/barchart.R")
+source("../source/pie_chart.R")
 library("knitr")
 ```
 ## Travel Safety for US citizens: Report
@@ -126,6 +127,14 @@ barchart
 
 **Description** : The bar chart have list out the top 10 region that most U.S citizens die over sea. The purpose of the graph is to shows the danger of each region so people can avoid to travel to these location on the graph. As the graph shows, Mexico have approximately ten times higher than the other. 
 
+
+```{r}
+pie_chart
+```
+
+**Description** :A pie chart is best for seeing how a whole of data ends up being split up. So by adding a pie chart I was able to represent how the top 10 deadliest cities would look in comparison to each other, based on their death counts. With as much data as we are presenting, a Pie chart is really good at displaying the bigger pieces of the pie and is more meaningful when you get to look at it. On top of that eventually the data tapers off into such small values that it is negligible so by splitting the pie in 10 we are able to see the major players in oversea American traveler deaths. Also the pie chart being one of the easiest to read I believe would be a good way to present the statistics in an easy and quick way. 
+
+
 **References**
 
 Baker, Td, et al. “The Uncounted Dead: American Civilians Dying Overseas.” Public Health Reports (1974), vol. 107, no. 2, Office of the Assistant Secretary for Health, 1992, pp. 155–59.
@@ -135,3 +144,4 @@ Garrett, Kelly. “U.S. Citizen Deaths Overseas.” Data.world, 19 Sept. 2018, h
 Hargarten, Stephen W., et al. “Overseas Fatalities of United States Citizen Travelers: An Analysis of Deaths Related to International Travel.” Annals of Emergency Medicine, vol. 20, no. 6, Mosby, Inc, 1991, pp. 622–26, https://doi.org/10.1016/S0196-0644(05)82379-0.
 
 Kiefer, Kit. “2022 Safest Countries for Travel.” Berkshire Hathaway Travel Protection, 9 Dec. 2021, https://www.bhtp.com/blog/safest-places-to-travel.
+
