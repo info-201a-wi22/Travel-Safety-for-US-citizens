@@ -120,7 +120,13 @@ death_per_city
 types_of_death
 ```
 
+*travel_to_death_ratio*: This data reveals which areas are safest to travel to based on a ratio which is the amount of people that travelled to this area in 2018 and the amount of deaths in this area overall. This ratio, although arbitrary, can be used to compare areas against one another, for a lower ratio means less people have died in your area despite a large amount of people entering. This dataset gives a slightly different approach to determining which places are safest and most dangerous.
 
+```{r}
+joined2
+```
+
+**Bar Chart**
 
 ```{r}
 barchart
@@ -128,6 +134,7 @@ barchart
 
 **Description** : The bar chart have list out the top 10 region that most U.S citizens die over sea. The purpose of the graph is to shows the danger of each region so people can avoid to travel to these location on the graph. As the graph shows, Mexico have approximately ten times higher than the other. 
 
+**Pie Chart**
 
 ```{r}
 pie_chart
@@ -135,9 +142,12 @@ pie_chart
 
 **Description** :A pie chart is best for seeing how a whole of data ends up being split up. So by adding a pie chart I was able to represent how the top 10 deadliest cities would look in comparison to each other, based on their death counts. With as much data as we are presenting, a Pie chart is really good at displaying the bigger pieces of the pie and is more meaningful when you get to look at it. On top of that eventually the data tapers off into such small values that it is negligible so by splitting the pie in 10 we are able to see the major players in oversea American traveler deaths. Also the pie chart being one of the easiest to read I believe would be a good way to present the statistics in an easy and quick way. 
 
+**Scatter Plot**
+
 ```{r}
-pie_chart
+scatter_plot
 ```
+**Description** : In this plot, the travel to death ratio is compared against the amount of travelling itself for the 90 safest areas. I believe this chart is important because it may imply a potential danger with our data. It shows that areas in which there is less US travel, the death rate for US citizens is higher on average. This increase in death rate may be connected to the lack in travel in which nobody wants to travel itself. However, it may also be that, because there are so little people traveling, a few deaths can rapidly increase this ratio. It is hard to say for sure which is happening; however, it is important to keep in mind which is why I think this graph is important.
 
 **References**
 
