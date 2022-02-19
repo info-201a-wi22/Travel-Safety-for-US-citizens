@@ -1,4 +1,4 @@
-library(dplyr)
+Travel_Safety_For_Cit <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/Travel-Safety-for-US-citizens/main/data/export.csv")
 City_numberdths <- Travel_Safety_For_Cit %>% 
   count(region) %>%
   mutate(rank = min_rank(-n)) %>%
