@@ -137,7 +137,8 @@ barchart
 **Pie Chart**
 
 ```{r}
-pie_chart
+pie(slices, labels = lbls, col=rainbow(length(lbls)),
+    main="Percentage by number of Deaths in Each Region")
 ```
 
 **Description** :A pie chart is best for seeing how a whole of data ends up being split up. So by adding a pie chart I was able to represent how the top 10 deadliest cities would look in comparison to each other, based on their death counts. With as much data as we are presenting, a Pie chart is really good at displaying the bigger pieces of the pie and is more meaningful when you get to look at it. On top of that eventually the data tapers off into such small values that it is negligible so by splitting the pie in 10 we are able to see the major players in oversea American traveler deaths. Also the pie chart being one of the easiest to read I believe would be a good way to present the statistics in an easy and quick way. 
@@ -145,8 +146,11 @@ pie_chart
 **Scatter Plot**
 
 ```{r}
-scatter_plot
+plot(joined2$travel_to_death_ratio, joined2$Number_of_visits, main="90 countries",
+     xlab="Number of deaths", ylab="Number of visits in 2018", pch=19)
 ```
+
+
 **Description** : In this plot, the travel to death ratio is compared against the amount of travelling itself for the 90 safest areas. I believe this chart is important because it may imply a potential danger with our data. It shows that areas in which there is less US travel, the death rate for US citizens is higher on average. This increase in death rate may be connected to the lack in travel in which nobody wants to travel itself. However, it may also be that, because there are so little people traveling, a few deaths can rapidly increase this ratio. It is hard to say for sure which is happening; however, it is important to keep in mind which is why I think this graph is important.
 
 **References**
@@ -158,4 +162,3 @@ Garrett, Kelly. “U.S. Citizen Deaths Overseas.” Data.world, 19 Sept. 2018, h
 Hargarten, Stephen W., et al. “Overseas Fatalities of United States Citizen Travelers: An Analysis of Deaths Related to International Travel.” Annals of Emergency Medicine, vol. 20, no. 6, Mosby, Inc, 1991, pp. 622–26, https://doi.org/10.1016/S0196-0644(05)82379-0.
 
 Kiefer, Kit. “2022 Safest Countries for Travel.” Berkshire Hathaway Travel Protection, 9 Dec. 2021, https://www.bhtp.com/blog/safest-places-to-travel.
-
