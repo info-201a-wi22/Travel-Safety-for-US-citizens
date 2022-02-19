@@ -1,3 +1,4 @@
+library(dplyr)
 City_numberdths <- Travel_Safety_For_Cit %>% 
   count(region) %>%
   mutate(rank = min_rank(-n)) %>%
