@@ -14,5 +14,5 @@ lbls <- c("Tijuana","Port Au Prince", "Baghdad","Ciudad Jaurez","Chihuahua" , "S
 pct <- round(slices/sum(slices)*100)
 lbls <- paste(lbls, pct) 
 lbls <- paste(lbls, "%", sep = "")
-pie(slices, labels = lbls, col=rainbow(length(lbls)),
+pie_chart <- pie(slices, labels = lbls, col=rainbow(length(lbls)),
     main="Percentage by number of Deaths in Each Region")
