@@ -11,6 +11,7 @@ source("../source/summary-information-script.R")
 source("../source/aggregate.R")
 source("../source/barchart.R")
 source("../source/pie_chart.R")
+source("../source/scatter_plot.R")
 library("knitr")
 ```
 ## Travel Safety for US citizens: Report
@@ -134,6 +135,9 @@ pie_chart
 
 **Description** :A pie chart is best for seeing how a whole of data ends up being split up. So by adding a pie chart I was able to represent how the top 10 deadliest cities would look in comparison to each other, based on their death counts. With as much data as we are presenting, a Pie chart is really good at displaying the bigger pieces of the pie and is more meaningful when you get to look at it. On top of that eventually the data tapers off into such small values that it is negligible so by splitting the pie in 10 we are able to see the major players in oversea American traveler deaths. Also the pie chart being one of the easiest to read I believe would be a good way to present the statistics in an easy and quick way. 
 
+```{r}
+pie_chart
+```
 
 **References**
 
