@@ -1,6 +1,6 @@
 
 library(dplyr)
-
+export <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/Travel-Safety-for-US-citizens/main/data/export.csv")
 grouped <- group_by(export, City)
 
 death_per_city <- export %>%
