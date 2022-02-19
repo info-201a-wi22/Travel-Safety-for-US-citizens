@@ -31,7 +31,3 @@ joined2 <- joined2 %>% mutate(travel_to_death_ratio = num_of_death/Number_of_vis
 joined2 <- joined2 %>% filter(travel_to_death_ratio < 0.238095238)
 
 joined2 <- joined2 %>% arrange(travel_to_death_ratio)
-
-attach(joined2)
-scatter_plot <- plot(travel_to_death_ratio, Number_of_visits, main="90 countries",
-     xlab="Number of deaths", ylab="Number of visits in 2018", pch=19)
