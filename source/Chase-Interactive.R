@@ -15,7 +15,7 @@ ui <- fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      helpText("Number of Vistors between 2010-2020"),
+      helpText("Number of Vistors between 2010-2020 (Millions)"),
       
       selectInput("var", 
                   label = "Choose a Country",
