@@ -1,7 +1,7 @@
 library(shiny)
 library(dplyr)
 library(ggplot2)
-TD_2018 <- read.csv("..data/2018_Country_travel_data.csv")
+TD_2018 <- read.csv("../data/2018_Country_travel_data.csv")
 DATA <- TD_2018 %>% arrange(desc(Number_of_visits))
 Visitation <- head(DATA, 15)
 
