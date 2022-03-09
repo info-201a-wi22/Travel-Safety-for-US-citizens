@@ -28,3 +28,5 @@ barchart <- ggplot(t2, aes(x=Region, y=n)) + geom_bar(stat="identity", width = 0
 
 #View(barchart)
 #print(barchart)
+
+
