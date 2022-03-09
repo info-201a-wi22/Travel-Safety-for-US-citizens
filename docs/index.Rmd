@@ -73,7 +73,7 @@ Which region has gotten worse the most (2008-2018)?
 
 The motivation for these questions is to determine which cities will be the safest place to travel overseas and which one is not. Within our dataset, each case came with a reason and where did it happen. This research is important to us because being a resident that lives on US territory we are able to travel all around the world, but before we travel, determining a safe destination could save our life or avoid danger. Our research will also determine which cities have gotten progressively safer or more dangerous for US citizens which may be important to someone who is planning on moving to that country or staying there for an extended period of time.
 
-**The Datas**
+**4.0 The Datas**
 _Size and complexity_:
 
 Our Data set contains 13045 deaths with the location, date, and cause of each death. However, we also added a smaller data set with each location and the amount of US citizens that have travelled to that area. 
@@ -97,6 +97,35 @@ The data is validated and held secure through the US government. This data is ve
 _How did you obtain the data? Do you credit the source of the data?_
 
 We obtained this data by looking for data sets online and found this one to be quite important, but also not formatted in a way in which a normal person would be able to obtain any reasonable information on it.
+
+**5.0 Findings**
+Which overseas region in the rank of top 100 has the lowest death rate for US citizens?
+
+According to our data, we have analyzed the top 100 regions that have US citizen deaths overseas from the year 2002 through 2021. In the rank of 100 there are seven regions on the list which are Fiji, Malaysia, Romania, Singapore, Tanzania, Puntarenas and Sonora. The death count of those countries is 20.  
+
+Which overseas region in the rank of top 100 has the highest death rate for US citizens?
+
+	The toppest region that US citizens die overseas is Mexico. Mexico has the rate of 2916 deaths in the past 2002 through 2021 and then Costa Rica with the death count of 321.   
+What are the top 3 main causes of death for US citizens?
+
+	The main cause of death for US citizens deaths overseas is homicide with the count of 2759. The percentage of it overall our causes of death is around 18.77 %. The second cause of death is suicide with the rate of 2096 and the percentage out of all death is around 14.26%. The third cause of death is drowning with the count of 1864 and 12.68% out of all.  
+Which region has improved the most (2008-2018)?
+
+	According to our question, we have been using the growth rate equation over the years to determine the region that improved or gotten worse the most. In this decade period from 2008 through 2018, the region that improved the most was the Philippines. In the year of 2008 there were 6 US citizens killed, over 10 years the Philippines has only increased 1 death with the growth rate of -88.33%.   
+Which region has gotten worse the most (2008-2018)?
+
+	The region that gotten worse in this time period is Afghanistan. In the year of 2008 there was only 1 death in this region but up to now 81 people passed away. The growth rate of this region is 710%. 
+
+
+**6.0 Discussion**
+
+According to our research topic we have developed the data set of “US citizen death oversea”. The main idea is to be able to determine the safest place to travel for the US citizen. Due to our research question, we have analyzed the top 100 regions where US citizens die overseas from 2002 through 2021. We have realized that the toppest region where US citizens died is Mexico and the lowest were Fiji, Malaysia, Romania, Singapore, Tanzania, Puntarenas and Sonora. The reason we have analyzed this rank is to help our reader to develop the region so they could  avoid or worth the risk of travel or immigrant. To determine the main cause of death could alert US travelers what kind of event of activity they should avoid and how to protect themself from death. The top three cause of death were homicide, suicide and drowning. Therefore, for some of the travelers staying away from unfamiliar areas or ponds could decrease the chance of death. Our group has also determined the death growth rate of each region from 2008 through 2018.  After the calculation, we can easily determine which region has started improving or gotten worse in this time period.  The region that has improved the most is Philippines, the growth rate of it is approximately -88.33%. The region that got worse is Afghanistan with the rate of 710% over 10 years. The growth rate data is important because we could compare the safety of a region over a long period of time and predict the future prospects.
+
+Those data are to provide our reader a better travel experience or investment no matter financial or immigrant. The direct stakeholders are tourists, immigrants or people who are planning to travel overseas. The datasets list out the city and cause of death for each case, after analyzing it it would become a suggestion or consideration  for the stakeholder’s safety.  The indirect stakeholders will focus mainly on the tourism rate of each city. When choosing a place to travel people normally pick the one that assures their personal safety. Places with lower death rates will be more popular and willing to travel than places with higher death rates. This effect will also impact cities GDP by personal consumption or Government spending.  
+
+**7.0 Conclusion**
+
+In conclusion, the keypoint of this data could benefit our audience to determine the place to travel and reduce the risk of life threatening by either avoiding choosing countries with the highest death rates or choosing the countries with the lowest death rates. Moreover, letting them know about the cause of death for each case so they will be able to avoid some activity.    
 
 **Expected Implications**
 
