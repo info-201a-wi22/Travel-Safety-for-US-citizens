@@ -64,11 +64,12 @@ https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/lvbsh/TN_cdi_pubmed_
 
 **3.0 Research questions**
 
-Which overseas city has the lowest death rate for US citizens?
-Which overseas  city has the highest death rate for US citizens?
-What is the main cause of death for US citizens?
-Which city is worth the risk of travel?
-Which city has improved the most? Which one has gotten worse?
+Which overseas region in the rank of top 100 has the lowest death rate for US citizens?
+Which overseas region in the rank of top 100 has the highest death rate for US citizens?
+What are the top 3 main causes of death for US citizens?
+Which region has improved the most (2008-2018)?
+Which region has gotten worse the most (2008-2018)?
+
 
 The motivation for these questions is to determine which cities will be the safest place to travel overseas and which one is not. Within our dataset, each case came with a reason and where did it happen. This research is important to us because being a resident that lives on US territory we are able to travel all around the world, but before we travel, determining a safe destination could save our life or avoid danger. Our research will also determine which cities have gotten progressively safer or more dangerous for US citizens which may be important to someone who is planning on moving to that country or staying there for an extended period of time.
 
