@@ -75,7 +75,7 @@ my_server <- function(input, output) {
       geom_line(aes(y = number_of_death_drow), colour = "Blue") +
       geom_line(aes(y = number_of_death_sui), colour = "Green") +
       geom_line(aes(y = number_of_death_hom), colour = "Black") +
-      ggtitle("YEP") +
+      ggtitle("Top Causes of Deaths Over Years") +
       ylab("Amount of Deaths") +
       xlab("Year / Red = Accident / Blue = Drowning / Green = Suicide / Black = Homicide") +
       xlim(input$year_input) +
