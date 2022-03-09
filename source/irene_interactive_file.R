@@ -16,7 +16,7 @@ death_data <- death_data %>%
 
 
 
-Summary_paragraph <- "In this graph you can see how many deaths each country had in that country by year. You can select a country from among the countries where US citizens have traveled a lot, and as you select a country, you can see how many deaths occurred in that country each year, as well as trends such as whether the number of deaths increased or decreased."
+Summary_paragraph <- "In this graph you can see how many deaths each country had in that country by year. You can select a country from among the countries where US citizens have traveled a lot, and as you select a country, you can see how many deaths occurred in that country each year, as well as trends such as whether the number of deaths increased or decreased. By analyzing the trend, we can identify which country has gotten safer recently and which country has gotten more dangerous. There might be two countries which hae the same amount of death occured within the whole data. However, whether there has been a lot of death occured in the past (less recently) or there has been a lot of death occured currently (less in the past) makes U.S. citizens make a significantly different choice. Therefore data that analyzes the trend of the number of death occured is necessary to be analyzed."
 
 
 
@@ -33,14 +33,15 @@ server <- function(input, output, session) {
 }
 
 
-
 ui <- basicPage(
   h1("How has the safety of each country changed throughout the years?"),
   selectInput(inputId = "Sel_Country",
               label = "Select a Country",
-              list("Afghanistan", "Bahamas", "Brazil", "Cambodia","Canada", "France", "Germany", "Mexico", "United Kingdom")),
-  plotOutput("plot"),
-  p(Summary_paragraph)
+              list("Afghanistan", "Bahamas", "Brazil", 
+                   "Cambodia","Canada", "France", "Germany", 
+                   "Mexico", "United Kingdom")),
+              plotOutput("plot"),
+              p(Summary_paragraph)
 )
 
 
