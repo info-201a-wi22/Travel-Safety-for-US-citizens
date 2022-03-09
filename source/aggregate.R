@@ -9,13 +9,13 @@ death_per_city <- export %>%
     num_of_death = NROW(City)
   )
 
-grouped <- group_by(export, `Cause of Death`)
+grouped <- group_by(export, Cause.of.Death)
 
 types_of_death <- export %>%
-  group_by(`Cause of Death`) %>%
+  group_by(Cause.of.Death) %>%
   summarise(
-    num_per_cause = NROW(`Cause of Death`)
+    num_per_cause = NROW(Cause.of.Death)
   )
 
-death_per_city
-types_of_death
+death_per_city <- death_per_city %>% arrange(desc(num_of_death))
+types_of_death <- types_of_death %>% arrange(desc(num_per_cause))

@@ -7,8 +7,8 @@ as follows:
 
 |Report | Brief Description|
 |---------------| -----------------|
-|[Project Proposal](./p01-proposal.md) | A brief description of your P1:Project Proposal
-|[Exploratory Data Analysis](./index.html) | A brief description of your exploratory data analyis report
+|[Project Proposal](./p01-proposal.md) | A proposal to our research
+|[Exploratory Data Analysis](./index.html) | Brief analysis of key findings
 |[Interactive Vizualizaiton](./xxx) | A brief description of your final report. 
 
 
