@@ -1,4 +1,5 @@
 library(shiny)
+Summary_paragraph <- "In this table, we showed how many people visited in 2019 and compared that between the top 15 destinations. It shows us that Mexico is a very big outlier and this should likely be taken into consideration when calculating risk factor. With this information you will be able to evaluate the relevance of deaths when it comes to the most traveled to cities. This data is also likely skewed due to COVID as Mexico has laxer laws when it comes to vaccination status and masks, it is likely that is why they tower above other countries. "
 
 Year <- c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020)
 Mexico <- c(20.02, 19.92, 20.37, 20.55, 25.88, 28.73, 31.19, 34.95, 36.37, 39.94, 21.73)
@@ -31,7 +32,8 @@ ui <- fluidPage(
     ),
     
     mainPanel(
-      tableOutput("DataTable")
+      tableOutput("DataTable"),
+      p(Summary_paragraph)
     )
   )
 )
